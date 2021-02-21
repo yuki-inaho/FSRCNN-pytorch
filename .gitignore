@@ -1,2 +1,4 @@
 .DS_Store
 .idea
+script/__pycache__
+pyproject.toml
