@@ -10,3 +10,8 @@ def show_image(title: str, image: np.ndarray):
         if key & 0xFF == ord("q"):
             break
     cv2.destroyAllWindows()
+
+
+def write_image(title: str, image: np.ndarray):
+    cv2.imwrite(title, image)
+    cv2.waitKey(10)
